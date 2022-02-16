@@ -20,7 +20,7 @@ class SquaredController extends Controller
         
         mysqli_close($link);
         }else{
-            $result_in = "Not Num";
+            $result_in = "Not Number";
         }
         return $result_in;
     }
